@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BatteryTemperature
 {
-    class MessageAlert
+    class MailAlert
     {
         private static readonly Dictionary<BreachType, string> BreachMessages = new()
         {
